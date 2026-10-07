@@ -1,0 +1,13 @@
+table_name|row_count
+bom|20
+categories|12
+customers|30
+customers_raw|20
+departments|7
+employees|30
+order_items|286
+orders|120
+parts|20
+products|20
+routes|12
+(11 rows)

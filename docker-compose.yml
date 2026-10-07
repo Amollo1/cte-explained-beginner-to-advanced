@@ -1,0 +1,18 @@
+# Local practice database. Credentials are for local learning only.
+services:
+  db:
+    image: postgres:16
+    container_name: cte_lab
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: cte_lab
+    ports:
+      - "5432:5432"        # change the left number if 5432 is already in use
+    volumes:
+      # Scripts in this folder run once, when the data volume is first created.
+      - ./data/schema_and_data.sql:/docker-entrypoint-initdb.d/01_schema_and_data.sql:ro
+      - cte_lab_data:/var/lib/postgresql/data
+
+volumes:
+  cte_lab_data:

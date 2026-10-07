@@ -1,0 +1,6 @@
+scratch/
+my-solutions/
+*.log
+.DS_Store
+.idea/
+.vscode/

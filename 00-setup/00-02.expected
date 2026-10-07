@@ -1,0 +1,32 @@
+emp_id|employee|dept_name|manager
+1|Amina Hassan|Executive|(none)
+2|Brian Otieno|Engineering|Amina Hassan
+3|Carla Mendes|Sales|Amina Hassan
+4|David Kimani|Finance|Amina Hassan
+5|Elena Petrova|HR|Amina Hassan
+6|Farid Rahman|Data & Analytics|Amina Hassan
+7|Grace Wanjiru|Engineering|Brian Otieno
+8|Hassan Ali|Engineering|Brian Otieno
+9|Irene Achieng|Sales|Carla Mendes
+10|James Mwangi|Sales|Carla Mendes
+11|Kofi Mensah|Finance|David Kimani
+12|Lina Schmidt|HR|Elena Petrova
+13|Mohamed Yusuf|Data & Analytics|Farid Rahman
+14|Nia Njeri|Engineering|Grace Wanjiru
+15|Omar Farouk|Engineering|Grace Wanjiru
+16|Priya Nair|Engineering|Grace Wanjiru
+17|Quentin Dube|Engineering|Hassan Ali
+18|Rita Kamau|Engineering|Hassan Ali
+19|Samuel Okoth|Sales|Irene Achieng
+20|Tina Wambui|Sales|Irene Achieng
+21|Umar Bello|Sales|James Mwangi
+22|Vera Lindqvist|Sales|James Mwangi
+23|Wanjiku Kariuki|Finance|Kofi Mensah
+24|Xavier Mutua|Finance|Kofi Mensah
+25|Yara Haddad|HR|Lina Schmidt
+26|Zane Ochieng|Data & Analytics|Mohamed Yusuf
+27|Abena Boateng|Data & Analytics|Mohamed Yusuf
+28|Bilal Chaudhry|Data & Analytics|Mohamed Yusuf
+29|Chipo Moyo|Data & Analytics|Mohamed Yusuf
+30|Daniel Kiprop|Data & Analytics|Zane Ochieng
+(30 rows)
