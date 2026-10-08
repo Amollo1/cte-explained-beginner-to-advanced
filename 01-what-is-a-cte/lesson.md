@@ -235,4 +235,4 @@ Write <code>WITH</code> once, then separate the definitions with a comma: <code>
 In PostgreSQL 12+ a CTE referenced once is inlined, so the plan is normally identical to the subquery version. A CTE improves readability and enables reuse and recursion; check <code>EXPLAIN ANALYZE</code> before claiming a speed-up.
 </details>
 
-**Next:** do the [exercises](exercises.md), then continue to Module 2: CTE vs Subquery vs View vs Temp Table *(coming soon)*.
+**Next:** do the [exercises](exercises.md), then continue to [Module 2: CTE vs Subquery vs View vs Temp Table](../02-cte-vs-alternatives/lesson.md).

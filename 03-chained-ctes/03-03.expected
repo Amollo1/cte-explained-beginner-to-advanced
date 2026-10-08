@@ -1,0 +1,9 @@
+customer_id|customer_name|signup_date
+27|Aaron Martin|2026-04-21
+28|Beatrice Kiplagat|2026-05-12
+29|Collins Raza|2026-03-28
+30|Diana Torres|2026-05-22
+(4 rows)
+left_join_count|not_exists_count|not_in_count
+4|4|4
+(1 row)

@@ -35,8 +35,8 @@ Then open [`00-setup/lesson.md`](00-setup/lesson.md) and follow the roadmap belo
 |---|---|---|---|---|
 | 0 | [Setup & SQL Refresher](00-setup/lesson.md) | Beginner | Environment, dataset tour, joins, grouping, subqueries | Available |
 | 1 | [What Is a CTE?](01-what-is-a-cte/lesson.md) | Beginner | Definition, `WITH` syntax, scope, readability | Available |
-| 2 | CTE vs Subquery vs View vs Temp Table | Beginner | Choosing the right tool | Planned |
-| 3 | Multiple & Chained CTEs | Beginner | Pipelines, joining CTEs, anti-joins | Planned |
+| 2 | [CTE vs Subquery vs View vs Temp Table](02-cte-vs-alternatives/lesson.md) | Beginner | Choosing the right tool, reuse, materialized views | Available |
+| 3 | [Multiple & Chained CTEs](03-chained-ctes/lesson.md) | Beginner | Pipelines, grain, joining CTEs, anti-joins | Available |
 | 4 | CTEs for Aggregation & Joins | Intermediate | Pre-aggregation, the fan-out trap, `FILTER`, cohorts | Planned |
 | 5 | CTEs + Window Functions | Intermediate | Top-N per group, running totals, `LAG` | Planned |
 | 6 | Data Cleaning & Deduplication | Intermediate | Normalising, dedup, data-quality profiling | Planned |

@@ -1,0 +1,11 @@
+customer_id|customer_name|orders_placed|avg_orders
+4|Dennis Okeke|20|4.62
+2|Brian Ali|14|4.62
+3|Chloe Brown|14|4.62
+1|Achieng Omondi|12|4.62
+12|Liam Wairimu|6|4.62
+20|Tabitha Johnson|5|4.62
+(6 rows)
+only_in_subquery|only_in_cte
+0|0
+(1 row)
