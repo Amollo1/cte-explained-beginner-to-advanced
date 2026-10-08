@@ -1,0 +1,5 @@
+signup_year|customers|ordered|pct_ordered|avg_days_to_first_order|ordered_within_365_days
+2023|12|12|100.0|705|0
+2024|14|14|100.0|263|11
+2026|4|0|0.0||0
+(3 rows)

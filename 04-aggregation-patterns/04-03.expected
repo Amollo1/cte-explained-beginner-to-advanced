@@ -1,0 +1,9 @@
+category_name|products|units_sold|revenue
+Laptops|3|51|71847.50
+Desktops|2|56|34852.50
+Smartphones|3|63|23292.50
+Desks|2|61|18801.00
+Accessories|6|193|18563.00
+Chairs|2|92|16133.00
+Stationery|2|77|765.40
+(7 rows)

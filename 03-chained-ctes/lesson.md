@@ -327,4 +327,4 @@ An `INNER JOIN` dropped the months that had no match in one of the CTEs. Use a `
 If the subquery returns even one `NULL`, the whole `NOT IN` condition can never be true, so the query returns no rows. `NOT EXISTS` does not have this problem.
 </details>
 
-**Next:** do the [exercises](exercises.md). Module 4 (CTEs for Aggregation & Joins) is coming soon and begins the Intermediate tier.
+**Next:** do the [exercises](exercises.md), then continue to [Module 4: CTEs for Aggregation & Joins](../04-aggregation-patterns/lesson.md), which begins the Intermediate tier.
