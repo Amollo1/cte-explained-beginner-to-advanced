@@ -441,4 +441,4 @@ The default frame is `RANGE`, so rows with the same date are peers and all recei
 `LAG` reads the previous row, not the previous month. If a month is missing from the data, the next month is compared with the month before the gap. Check that the months are contiguous, or join to a generated calendar.
 </details>
 
-**Next:** do the [exercises](exercises.md). Module 6 (Data Cleaning & Deduplication) is coming soon.
+**Next:** do the [exercises](exercises.md), then continue to [Module 6: Data Cleaning & Deduplication](../06-data-cleaning/lesson.md).

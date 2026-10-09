@@ -1,0 +1,15 @@
+raw_id|full_name|email|loaded_on
+2|Alice Mwangi|alice.mwangi@example.com|2026-02-10
+4|Brian Otieno|brian.otieno@example.com|2026-03-01
+5|Carol Njeri|carol.njeri@example.com|2026-01-07
+7|Daniel Kiprop|daniel.kiprop@example.com|2026-02-08
+8|Esther Wafula|esther.wafula@example.com|2026-01-09
+10|Farah Ahmed|farah.ahmed@example|2026-01-11
+13|Hannah Schmidt|hannah.schmidt@example.com|2026-03-14
+14|Ibrahim Musa|ibrahim.musa@example.com|2026-01-15
+15|Julia Santos|julia.santos@example.com|2026-01-16
+17|Kevin Mutua|kevin.mutua@example.com|2026-02-17
+18|Linda Achieng|linda.achieng@example.com|2026-01-18
+20|Mark Otieno|mark.otieno@example.com|2026-03-19
+9||unknown@example.com|2026-01-10
+(13 rows)
