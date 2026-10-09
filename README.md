@@ -38,7 +38,7 @@ Then open [`00-setup/lesson.md`](00-setup/lesson.md) and follow the roadmap belo
 | 2 | [CTE vs Subquery vs View vs Temp Table](02-cte-vs-alternatives/lesson.md) | Beginner | Choosing the right tool, reuse, materialized views | Available |
 | 3 | [Multiple & Chained CTEs](03-chained-ctes/lesson.md) | Beginner | Pipelines, grain, joining CTEs, anti-joins | Available |
 | 4 | [CTEs for Aggregation & Joins](04-aggregation-patterns/lesson.md) | Intermediate | Pre-aggregation, the fan-out trap, `FILTER`, reconciliation, cohorts | Available |
-| 5 | CTEs + Window Functions | Intermediate | Top-N per group, running totals, `LAG` | Planned |
+| 5 | [CTEs + Window Functions](05-window-functions/lesson.md) | Intermediate | Top-N per group, ranking and ties, running totals, frames, `LAG`/`LEAD` | Available |
 | 6 | Data Cleaning & Deduplication | Intermediate | Normalising, dedup, data-quality profiling | Planned |
 | 7 | Materialization & the Optimizer | Advanced | `MATERIALIZED`, predicate pushdown, `EXPLAIN ANALYZE` | Planned |
 | 8 | Recursive CTE Fundamentals | Intermediate | Anchor and recursive members, series, termination | Planned |

@@ -1,0 +1,19 @@
+dept_name|salary_rank|employee|salary
+Data & Analytics|1|Farid Rahman|160000.00
+Data & Analytics|2|Mohamed Yusuf|108000.00
+Engineering|1|Brian Otieno|165000.00
+Engineering|2|Grace Wanjiru|105000.00
+Executive|1|Amina Hassan|250000.00
+Finance|1|David Kimani|155000.00
+Finance|2|Kofi Mensah|98000.00
+HR|1|Elena Petrova|150000.00
+HR|2|Lina Schmidt|90000.00
+Sales|1|Carla Mendes|160000.00
+Sales|2|Irene Achieng|95000.00
+(11 rows)
+first_name|salary|row_num|rnk|dense_rnk
+Brian|165000.00|1|1|1
+Grace|105000.00|2|2|2
+Hassan|105000.00|3|2|2
+Quentin|85000.00|4|4|3
+(4 rows)

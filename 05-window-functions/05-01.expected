@@ -1,0 +1,19 @@
+category_name|rank_in_category|product_name|revenue|pct_of_category
+Accessories|1|27in Monitor|10440.00|56.2
+Accessories|2|Mechanical Keyboard|2916.00|15.7
+Accessories|3|HD Webcam|1773.75|9.6
+Chairs|1|Ergo Chair|11957.00|74.1
+Chairs|2|Task Chair|4176.00|25.9
+Desks|1|Standing Desk|14496.00|77.1
+Desks|2|Compact Desk|4305.00|22.9
+Desktops|1|Tower T5|20385.00|58.5
+Desktops|2|Mini PC M1|14467.50|41.5
+Laptops|1|Workstation Pro 16|49950.00|69.5
+Laptops|2|UltraSlim 13|18260.00|25.4
+Laptops|3|ThinkBook 14|3637.50|5.1
+Smartphones|1|Pulse A3|11450.00|49.2
+Smartphones|2|Nova X1 Pro|9562.50|41.1
+Smartphones|3|Nova X1|2280.00|9.8
+Stationery|1|Notebook Pack|486.60|63.6
+Stationery|2|Pen Set|278.80|36.4
+(17 rows)

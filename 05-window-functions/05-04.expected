@@ -1,0 +1,25 @@
+customer_id|customer_name|orders|avg_gap_days|max_gap_days
+4|Dennis Okeke|20|28.6|95
+1|Achieng Omondi|12|35.0|92
+2|Brian Ali|14|36.8|93
+3|Chloe Brown|14|36.8|112
+25|Yusuf Patel|3|42.0|47
+11|Kendi Mugo|3|60.5|71
+23|Wangari Wafula|4|60.7|103
+12|Liam Wairimu|6|83.6|184
+20|Tabitha Johnson|5|89.8|144
+21|Umaima Hussein|3|117.0|187
+6|Farid Khan|3|120.5|214
+16|Pedro Silva|4|122.0|309
+8|Hamza Mwende|3|132.5|159
+9|Ines Cohen|4|138.0|185
+7|Grace Atieno|2|168.0|168
+24|Ximena Walker|2|184.0|184
+15|Olivia Costa|2|195.0|195
+17|Qasim Muthoni|2|212.0|212
+19|Sanjay Mutua|3|237.0|411
+26|Zainab Bello|2|308.0|308
+22|Victor Nabwire|2|356.0|356
+18|Rose Mensah|2|395.0|395
+5|Esther Otieno|2|414.0|414
+(23 rows)

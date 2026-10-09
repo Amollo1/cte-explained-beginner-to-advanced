@@ -417,4 +417,4 @@ Line revenue, because it lives at the order-line grain and each line appears exa
 Reconcile it: compare a total from the report with the same total from a simple, independent query. A mismatch signals a grain bug.
 </details>
 
-**Next:** do the [exercises](exercises.md). Module 5 (CTEs + Window Functions) is coming soon.
+**Next:** do the [exercises](exercises.md), then continue to [Module 5: CTEs + Window Functions](../05-window-functions/lesson.md).
