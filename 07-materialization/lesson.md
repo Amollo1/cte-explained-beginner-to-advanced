@@ -264,4 +264,4 @@ No. By default a CTE used once is inlined, so the filter reaches the table and t
 Nothing changes. A CTE with a volatile function is never inlined, so it is computed once and every reference sees the same value.
 </details>
 
-**Next:** do the [exercises](exercises.md). Module 8 (Recursive CTE Fundamentals) is coming soon.
+**Next:** do the [exercises](exercises.md), then continue to [Module 8: Recursive CTE Fundamentals](../08-recursive-basics/lesson.md).

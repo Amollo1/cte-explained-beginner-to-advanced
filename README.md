@@ -41,7 +41,7 @@ Then open [`00-setup/lesson.md`](00-setup/lesson.md) and follow the roadmap belo
 | 5 | [CTEs + Window Functions](05-window-functions/lesson.md) | Intermediate | Top-N per group, ranking and ties, running totals, frames, `LAG`/`LEAD` | Available |
 | 6 | [Data Cleaning & Deduplication](06-data-cleaning/lesson.md) | Intermediate | Standardising, validating, dedup, survivorship rules, reconciliation | Available |
 | 7 | [Materialization & the Optimizer](07-materialization/lesson.md) | Advanced | `MATERIALIZED`, predicate pushdown, duplicate work, `EXPLAIN ANALYZE` | Available |
-| 8 | Recursive CTE Fundamentals | Intermediate | Anchor and recursive members, series, termination | Planned |
+| 8 | [Recursive CTE Fundamentals](08-recursive-basics/lesson.md) | Intermediate | Anchor and recursive members, rounds, gap-filling calendars, termination, common errors | Available |
 | 9 | Hierarchies: Org Charts & Category Trees | Advanced | Depth, paths, breadcrumbs, roll-ups | Planned |
 | 10 | Graphs, Cycles & `SEARCH`/`CYCLE` | Advanced | Path enumeration, cycle safety, PG 14+ clauses | Planned |
 | 11 | Bill of Materials & Roll-ups | Advanced | Quantity explosion, cost roll-up, where-used | Planned |
