@@ -1,0 +1,21 @@
+category_name|revenue
+Electronics|148555.50
+Office|35699.40
+(2 rows)
+sum_of_top_level|control_total
+184254.90|184254.90
+(1 row)
+category_id|category_name|rolled_up_revenue
+1|Electronics|148555.50
+2|Computers|106700.00
+3|Laptops|71847.50
+4|Desktops|34852.50
+5|Phones|23292.50
+6|Smartphones|23292.50
+7|Accessories|18563.00
+8|Office|35699.40
+9|Furniture|34934.00
+10|Chairs|16133.00
+11|Desks|18801.00
+12|Stationery|765.40
+(12 rows)

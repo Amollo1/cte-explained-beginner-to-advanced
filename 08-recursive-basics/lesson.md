@@ -367,4 +367,4 @@ The data ends on 30 June, so those zeros are not real. The calendar's bounds sho
 Cast the anchor to the wider type, for example `SELECT 1::bigint`, so the anchor and the recursive term agree.
 </details>
 
-**Next:** do the [exercises](exercises.md), then continue to Module 9: Hierarchies, Org Charts & Category Trees *(coming soon)*.
+**Next:** do the [exercises](exercises.md), then continue to [Module 9: Hierarchies, Org Charts & Category Trees](../09-hierarchies/lesson.md).

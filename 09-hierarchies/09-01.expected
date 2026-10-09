@@ -1,0 +1,35 @@
+depth|emp_id|employee|job_title
+1|1|Amina Hassan|CEO
+2|2|Brian Otieno|VP Engineering
+2|3|Carla Mendes|VP Sales
+2|4|David Kimani|VP Finance
+2|5|Elena Petrova|VP HR
+2|6|Farid Rahman|VP Data & Analytics
+3|7|Grace Wanjiru|Engineering Manager
+3|8|Hassan Ali|Engineering Manager
+3|9|Irene Achieng|Sales Manager
+3|10|James Mwangi|Sales Manager
+3|11|Kofi Mensah|Finance Manager
+3|12|Lina Schmidt|HR Manager
+3|13|Mohamed Yusuf|Data Manager
+4|14|Nia Njeri|Software Engineer
+4|15|Omar Farouk|Software Engineer
+4|16|Priya Nair|QA Engineer
+4|17|Quentin Dube|DevOps Engineer
+4|18|Rita Kamau|Backend Developer
+4|19|Samuel Okoth|Account Executive
+4|20|Tina Wambui|Account Executive
+4|21|Umar Bello|Sales Rep
+4|22|Vera Lindqvist|Sales Rep
+4|23|Wanjiku Kariuki|Accountant
+4|24|Xavier Mutua|Financial Analyst
+4|25|Yara Haddad|Recruiter
+4|26|Zane Ochieng|Senior Data Analyst
+4|27|Abena Boateng|Data Engineer
+4|28|Bilal Chaudhry|BI Developer
+4|29|Chipo Moyo|Data Analyst
+5|30|Daniel Kiprop|Junior Analyst
+(30 rows)
+employees_reached|employees_total|max_depth
+30|30|5
+(1 row)

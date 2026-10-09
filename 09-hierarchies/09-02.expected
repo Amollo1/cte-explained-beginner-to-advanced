@@ -1,0 +1,32 @@
+emp_id|employee|depth|chain
+1|Amina Hassan|1|Amina
+2|Brian Otieno|2|Amina > Brian
+3|Carla Mendes|2|Amina > Carla
+4|David Kimani|2|Amina > David
+5|Elena Petrova|2|Amina > Elena
+6|Farid Rahman|2|Amina > Farid
+7|Grace Wanjiru|3|Amina > Brian > Grace
+8|Hassan Ali|3|Amina > Brian > Hassan
+9|Irene Achieng|3|Amina > Carla > Irene
+10|James Mwangi|3|Amina > Carla > James
+11|Kofi Mensah|3|Amina > David > Kofi
+12|Lina Schmidt|3|Amina > Elena > Lina
+13|Mohamed Yusuf|3|Amina > Farid > Mohamed
+14|Nia Njeri|4|Amina > Brian > Grace > Nia
+15|Omar Farouk|4|Amina > Brian > Grace > Omar
+16|Priya Nair|4|Amina > Brian > Grace > Priya
+17|Quentin Dube|4|Amina > Brian > Hassan > Quentin
+18|Rita Kamau|4|Amina > Brian > Hassan > Rita
+19|Samuel Okoth|4|Amina > Carla > Irene > Samuel
+20|Tina Wambui|4|Amina > Carla > Irene > Tina
+21|Umar Bello|4|Amina > Carla > James > Umar
+22|Vera Lindqvist|4|Amina > Carla > James > Vera
+23|Wanjiku Kariuki|4|Amina > David > Kofi > Wanjiku
+24|Xavier Mutua|4|Amina > David > Kofi > Xavier
+25|Yara Haddad|4|Amina > Elena > Lina > Yara
+26|Zane Ochieng|4|Amina > Farid > Mohamed > Zane
+27|Abena Boateng|4|Amina > Farid > Mohamed > Abena
+28|Bilal Chaudhry|4|Amina > Farid > Mohamed > Bilal
+29|Chipo Moyo|4|Amina > Farid > Mohamed > Chipo
+30|Daniel Kiprop|5|Amina > Farid > Mohamed > Zane > Daniel
+(30 rows)

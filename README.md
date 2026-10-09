@@ -42,7 +42,7 @@ Then open [`00-setup/lesson.md`](00-setup/lesson.md) and follow the roadmap belo
 | 6 | [Data Cleaning & Deduplication](06-data-cleaning/lesson.md) | Intermediate | Standardising, validating, dedup, survivorship rules, reconciliation | Available |
 | 7 | [Materialization & the Optimizer](07-materialization/lesson.md) | Advanced | `MATERIALIZED`, predicate pushdown, duplicate work, `EXPLAIN ANALYZE` | Available |
 | 8 | [Recursive CTE Fundamentals](08-recursive-basics/lesson.md) | Intermediate | Anchor and recursive members, rounds, gap-filling calendars, termination, common errors | Available |
-| 9 | Hierarchies: Org Charts & Category Trees | Advanced | Depth, paths, breadcrumbs, roll-ups | Planned |
+| 9 | [Hierarchies: Org Charts & Category Trees](09-hierarchies/lesson.md) | Advanced | Depth, paths, subtrees, closures, breadcrumbs, roll-ups, outline order, cycle safety | Available |
 | 10 | Graphs, Cycles & `SEARCH`/`CYCLE` | Advanced | Path enumeration, cycle safety, PG 14+ clauses | Planned |
 | 11 | Bill of Materials & Roll-ups | Advanced | Quantity explosion, cost roll-up, where-used | Planned |
 | 12 | Data-Modifying CTEs | Advanced | `INSERT`/`UPDATE`/`DELETE ... RETURNING`, archive and audit patterns | Planned |

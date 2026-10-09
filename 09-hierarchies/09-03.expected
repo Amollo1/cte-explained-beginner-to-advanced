@@ -1,0 +1,24 @@
+level_below|emp_id|employee
+1|13|Mohamed Yusuf
+2|26|Zane Ochieng
+2|27|Abena Boateng
+2|28|Bilal Chaudhry
+2|29|Chipo Moyo
+3|30|Daniel Kiprop
+(6 rows)
+emp_id|manager|direct_reports|total_reports
+1|Amina Hassan|5|29
+2|Brian Otieno|2|7
+3|Carla Mendes|2|6
+6|Farid Rahman|1|6
+13|Mohamed Yusuf|4|5
+4|David Kimani|1|3
+7|Grace Wanjiru|3|3
+5|Elena Petrova|1|2
+8|Hassan Ali|2|2
+9|Irene Achieng|2|2
+10|James Mwangi|2|2
+11|Kofi Mensah|2|2
+12|Lina Schmidt|1|1
+26|Zane Ochieng|1|1
+(14 rows)

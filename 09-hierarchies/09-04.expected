@@ -1,0 +1,14 @@
+depth|category_id|breadcrumb
+1|1|Electronics
+2|2|Electronics > Computers
+3|3|Electronics > Computers > Laptops
+3|4|Electronics > Computers > Desktops
+2|5|Electronics > Phones
+3|6|Electronics > Phones > Smartphones
+2|7|Electronics > Accessories
+1|8|Office
+2|9|Office > Furniture
+3|10|Office > Furniture > Chairs
+3|11|Office > Furniture > Desks
+2|12|Office > Stationery
+(12 rows)
