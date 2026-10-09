@@ -378,4 +378,4 @@ It is the rule for deciding which duplicate record's values survive (latest wins
 Reconcile: count kept, duplicates removed and rejected rows, and check that they add up to the raw row count. Also list rejected rows with a reason as an audit trail.
 </details>
 
-**Next:** do the [exercises](exercises.md). Module 7 (Materialization & the Optimizer) is coming soon, and it begins the Advanced tier.
+**Next:** do the [exercises](exercises.md), then continue to [Module 7: Materialization & the Optimizer](../07-materialization/lesson.md), which begins the Advanced tier.

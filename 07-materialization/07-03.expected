@@ -1,0 +1,9 @@
+cte_always_same|not_materialized_hint_still_same|subquery_never_same
+t|t|t
+(1 row)
+order_items_scans_materialized|order_items_scans_not_materialized
+1|2
+(1 row)
+rows_read_materialized|rows_read_not_materialized
+120|2
+(1 row)

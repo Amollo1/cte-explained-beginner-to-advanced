@@ -1,0 +1,6 @@
+materialized_scans|not_materialized_scans|materialized_has_cte_scan|not_materialized_has_cte_scan
+1|2|t|f
+(1 row)
+result_rows|differences
+7|0
+(1 row)
