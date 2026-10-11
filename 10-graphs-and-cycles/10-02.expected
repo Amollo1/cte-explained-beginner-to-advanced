@@ -1,0 +1,14 @@
+route|total_km|hops
+Nairobi > Nakuru > Eldoret > Kampala > Kigali|1220|4
+Nairobi > Nakuru > Kisumu > Kampala > Kigali|1230|4
+(2 rows)
+city|simple_paths|shortest_km|longest_km
+Nakuru|1|160|160
+Arusha|1|270|270
+Eldoret|1|310|310
+Kisumu|1|340|340
+Mombasa|1|480|480
+Kampala|2|710|720
+Dar es Salaam|2|900|1010
+Kigali|2|1220|1230
+(8 rows)

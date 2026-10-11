@@ -474,4 +474,4 @@ Two rows are not connected to the root (for example a detached cycle, since a fo
 Top-down from the root cannot, because a single-parent structure cannot have a cycle reachable from the root. Upward traversals that start inside a cycle, and closures that anchor on every row, can, so they need a depth guard.
 </details>
 
-**Next:** do the [exercises](exercises.md), then continue to Module 10: Graphs, Cycles & `SEARCH`/`CYCLE` *(coming soon)*.
+**Next:** do the [exercises](exercises.md), then continue to [Module 10: Graphs, Cycles & the `SEARCH` / `CYCLE` Clauses](../10-graphs-and-cycles/lesson.md).

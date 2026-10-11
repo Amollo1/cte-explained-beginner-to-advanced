@@ -1,0 +1,12 @@
+unprotected_search_cancelled
+t
+(1 row)
+max_hops|walks_to_kigali|all_walks
+4|2|22
+8|10|128
+12|42|644
+16|202|3180
+(4 rows)
+real_routes_to_kigali
+2
+(1 row)

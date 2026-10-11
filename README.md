@@ -43,7 +43,7 @@ Then open [`00-setup/lesson.md`](00-setup/lesson.md) and follow the roadmap belo
 | 7 | [Materialization & the Optimizer](07-materialization/lesson.md) | Advanced | `MATERIALIZED`, predicate pushdown, duplicate work, `EXPLAIN ANALYZE` | Available |
 | 8 | [Recursive CTE Fundamentals](08-recursive-basics/lesson.md) | Intermediate | Anchor and recursive members, rounds, gap-filling calendars, termination, common errors | Available |
 | 9 | [Hierarchies: Org Charts & Category Trees](09-hierarchies/lesson.md) | Advanced | Depth, paths, subtrees, closures, breadcrumbs, roll-ups, outline order, cycle safety | Available |
-| 10 | Graphs, Cycles & `SEARCH`/`CYCLE` | Advanced | Path enumeration, cycle safety, PG 14+ clauses | Planned |
+| 10 | [Graphs, Cycles & `SEARCH`/`CYCLE`](10-graphs-and-cycles/lesson.md) | Advanced | Reachability, path checks, `CYCLE`, `SEARCH`, shortest paths and their limits (PG 14+) | Available |
 | 11 | Bill of Materials & Roll-ups | Advanced | Quantity explosion, cost roll-up, where-used | Planned |
 | 12 | Data-Modifying CTEs | Advanced | `INSERT`/`UPDATE`/`DELETE ... RETURNING`, archive and audit patterns | Planned |
 | 13 | Performance, Best Practices & Anti-Patterns | Advanced | Refactoring, indexing, alternatives (`ltree`, closure tables) | Planned |
@@ -71,7 +71,8 @@ NN-module-name/
 
 ```bash
 export PGPASSWORD=postgres            # password used by docker-compose.yml
-./scripts/run_all.sh                  # runs every example and checks every solution
+bash scripts/check_repo.sh            # file checks, no database needed (missing files, Windows line endings)
+bash scripts/run_all.sh               # runs every example and checks every solution
 ```
 
 The runner executes each `examples.sql` (must succeed) and each solution `NN-NN.sql` (must succeed **and** match its `.expected` file). GitHub Actions runs the same script against PostgreSQL 14, 16 and 17.

@@ -1,0 +1,16 @@
+route|total_km|hops
+Nairobi > Nakuru > Eldoret > Kampala > Kigali|1220|4
+Nairobi > Nakuru > Kisumu > Kampala > Kigali|1230|4
+(2 rows)
+route|hops|total_km
+Nairobi > Arusha > Dar es Salaam > Nairobi|3|1780
+Nairobi > Mombasa > Dar es Salaam > Nairobi|3|1890
+Nairobi > Nakuru > Eldoret > Kampala > Nairobi|4|1360
+Nairobi > Nakuru > Kisumu > Kampala > Nairobi|4|1370
+(4 rows)
+cycle_rows|manual_rows|differences
+2|2|0
+(1 row)
+nairobi_rows_without_filter|nairobi_rows_with_filter|kigali_rows_without_filter|kigali_rows_with_filter
+5|1|2|2
+(1 row)

@@ -1,0 +1,31 @@
+step|hops|route
+1|0|Nairobi
+2|1|Nairobi > Nakuru
+3|1|Nairobi > Mombasa
+4|1|Nairobi > Arusha
+5|2|Nairobi > Nakuru > Eldoret
+6|2|Nairobi > Nakuru > Kisumu
+7|2|Nairobi > Mombasa > Dar es Salaam
+8|2|Nairobi > Arusha > Dar es Salaam
+9|3|Nairobi > Nakuru > Eldoret > Kampala
+10|3|Nairobi > Nakuru > Kisumu > Kampala
+11|4|Nairobi > Nakuru > Eldoret > Kampala > Kigali
+12|4|Nairobi > Nakuru > Kisumu > Kampala > Kigali
+(12 rows)
+step|hops|route
+1|0|Nairobi
+2|1|Nairobi > Nakuru
+3|2|Nairobi > Nakuru > Eldoret
+4|3|Nairobi > Nakuru > Eldoret > Kampala
+5|4|Nairobi > Nakuru > Eldoret > Kampala > Kigali
+6|2|Nairobi > Nakuru > Kisumu
+7|3|Nairobi > Nakuru > Kisumu > Kampala
+8|4|Nairobi > Nakuru > Kisumu > Kampala > Kigali
+9|1|Nairobi > Mombasa
+10|2|Nairobi > Mombasa > Dar es Salaam
+11|1|Nairobi > Arusha
+12|2|Nairobi > Arusha > Dar es Salaam
+(12 rows)
+breadth_first_is_hops_then_path|depth_first_is_path_of_ids
+t|t
+(1 row)
