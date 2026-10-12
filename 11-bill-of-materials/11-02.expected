@@ -1,0 +1,14 @@
+bicycle_unit_cost
+259.30
+(1 row)
+part_id|part_name|rolled_up_unit_cost
+1|Bicycle|259.30
+2|Frame|60.80
+3|Wheel Assembly|53.00
+4|Drivetrain|63.50
+5|Handlebar Assembly|29.00
+11|Crankset|28.50
+(6 rows)
+cost_from_explosion|cost_from_components|assemblies_with_a_price|raw_parts_without_price
+259.30|259.30|0|0
+(1 row)

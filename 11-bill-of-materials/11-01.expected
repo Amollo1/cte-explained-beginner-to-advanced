@@ -1,0 +1,19 @@
+part_id|part_name|total_qty
+6|Rim|2
+7|Tire|2
+8|Spoke|64
+9|Hub|2
+10|Chain|1
+12|Pedal|2
+13|Rear Cassette|1
+14|Handlebar|1
+15|Grip|2
+16|Brake Lever|2
+17|Bolt|13
+18|Frame Tube Set|1
+19|Crank Arm|2
+20|Chainring|1
+(14 rows)
+explosion_rows|deepest_level|raw_part_types|raw_units|bolts_in_total
+21|3|14|96|13
+(1 row)

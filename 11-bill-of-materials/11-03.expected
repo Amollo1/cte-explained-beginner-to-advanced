@@ -1,0 +1,16 @@
+levels_up|route|bolts
+1|Bolt < Frame|8
+1|Bolt < Crankset|5
+2|Bolt < Frame < Bicycle|8
+2|Bolt < Crankset < Drivetrain|5
+3|Bolt < Crankset < Drivetrain < Bicycle|5
+(5 rows)
+part_id|part_name|bolts_per_unit|routes
+1|Bicycle|13|2
+2|Frame|8|1
+4|Drivetrain|5|1
+11|Crankset|5|1
+(4 rows)
+bolts_found_going_up|bolts_found_going_down|they_agree
+13|13|t
+(1 row)

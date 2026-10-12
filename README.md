@@ -44,7 +44,7 @@ Then open [`00-setup/lesson.md`](00-setup/lesson.md) and follow the roadmap belo
 | 8 | [Recursive CTE Fundamentals](08-recursive-basics/lesson.md) | Intermediate | Anchor and recursive members, rounds, gap-filling calendars, termination, common errors | Available |
 | 9 | [Hierarchies: Org Charts & Category Trees](09-hierarchies/lesson.md) | Advanced | Depth, paths, subtrees, closures, breadcrumbs, roll-ups, outline order, cycle safety | Available |
 | 10 | [Graphs, Cycles & `SEARCH`/`CYCLE`](10-graphs-and-cycles/lesson.md) | Advanced | Reachability, path checks, `CYCLE`, `SEARCH`, shortest paths and their limits (PG 14+) | Available |
-| 11 | Bill of Materials & Roll-ups | Advanced | Quantity explosion, cost roll-up, where-used | Planned |
+| 11 | [Bill of Materials & Roll-ups](11-bill-of-materials/lesson.md) | Advanced | Quantity explosion, purchase lists, cost roll-up, where-used, cycle audit | Available |
 | 12 | Data-Modifying CTEs | Advanced | `INSERT`/`UPDATE`/`DELETE ... RETURNING`, archive and audit patterns | Planned |
 | 13 | Performance, Best Practices & Anti-Patterns | Advanced | Refactoring, indexing, alternatives (`ltree`, closure tables) | Planned |
 | 14 | Capstone Portfolio Projects | Advanced | Four end-to-end projects | Planned |

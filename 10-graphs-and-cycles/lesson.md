@@ -420,4 +420,4 @@ It marks the row `is_cycle = true` and does not expand it further, so the recurs
 Breadth-first sorts only by depth and the `BY` columns. Two routes ending with the same last road at the same depth tie, and tied rows have no guaranteed order. Use a `BY` list that is unique per row, such as the path of road ids.
 </details>
 
-**Next:** do the [exercises](exercises.md), then continue to Module 11: Bill of Materials & Roll-ups *(coming soon)*.
+**Next:** do the [exercises](exercises.md), then continue to [Module 11: Bill of Materials & Roll-ups](../11-bill-of-materials/lesson.md).
