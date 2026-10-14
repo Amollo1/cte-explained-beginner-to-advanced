@@ -1,0 +1,18 @@
+salary_seen_by_main_query|salary_from_returning
+42000.00|84000.00
+(1 row)
+salary_seen_by_the_next_statement
+84000.00
+(1 row)
+rows_seen_in_the_table|rows_returned
+0|1
+(1 row)
+sqlstate_when_nested
+0A000
+(1 row)
+sequence_jump_after_an_undone_insert|rows_left_in_customers_clean
+2|0
+(1 row)
+salary_of_employee_30|customers_clean_rows
+42000.00|0
+(1 row)

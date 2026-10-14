@@ -437,4 +437,4 @@ If two branches produce the identical row (same part, same quantity), `UNION` tr
 A raw part lost its price (`NULL`), and `SUM` ignores `NULL`. Always report the count of raw parts with no price next to the cost, or make the query fail when that count is not zero.
 </details>
 
-**Next:** do the [exercises](exercises.md), then continue to Module 12: Data-Modifying CTEs *(coming soon)*.
+**Next:** do the [exercises](exercises.md), then continue to [Module 12: Data-Modifying CTEs](../12-data-modifying-ctes/lesson.md).

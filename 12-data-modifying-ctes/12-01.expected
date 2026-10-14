@@ -1,0 +1,15 @@
+orders_left|orders_archived|items_left|items_archived|cancelled_left
+113|7|268|18|0
+(1 row)
+orders_before|orders_accounted_for|items_before|items_accounted_for
+120|120|286|286
+(1 row)
+sqlstate_of_failed_archive
+23505
+(1 row)
+orders_still_there|items_still_there|items_archived
+120|286|0
+(1 row)
+orders|order_items|orders_archive|order_items_archive
+120|286|0|0
+(1 row)

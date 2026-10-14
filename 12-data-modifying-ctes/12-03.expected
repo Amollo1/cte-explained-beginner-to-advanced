@@ -1,0 +1,28 @@
+inserted_rows
+12
+(1 row)
+inserted_rows
+0
+(1 row)
+email|full_name|loaded_on
+alice.mwangi@example.com|Alice Mwangi|2026-02-10
+brian.otieno@example.com|Brian Otieno|2026-03-01
+carol.njeri@example.com|Carol Njeri|2026-01-07
+daniel.kiprop@example.com|Daniel Kiprop|2026-02-08
+esther.wafula@example.com|Esther Wafula|2026-01-09
+hannah.schmidt@example.com|Hannah Schmidt|2026-03-14
+ibrahim.musa@example.com|Ibrahim Musa|2026-01-15
+julia.santos@example.com|Julia Santos|2026-01-16
+kevin.mutua@example.com|Kevin Mutua|2026-02-17
+linda.achieng@example.com|Linda Achieng|2026-01-18
+mark.otieno@example.com|Mark Otieno|2026-03-19
+unknown@example.com||2026-01-10
+(12 rows)
+email|full_name
+alice.mwangi@example.com|Alice Mwangi-Otieno
+(1 row)
+email|full_name
+(0 rows)
+customers_clean_rows|customers_raw_rows
+0|20
+(1 row)

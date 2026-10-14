@@ -45,7 +45,7 @@ Then open [`00-setup/lesson.md`](00-setup/lesson.md) and follow the roadmap belo
 | 9 | [Hierarchies: Org Charts & Category Trees](09-hierarchies/lesson.md) | Advanced | Depth, paths, subtrees, closures, breadcrumbs, roll-ups, outline order, cycle safety | Available |
 | 10 | [Graphs, Cycles & `SEARCH`/`CYCLE`](10-graphs-and-cycles/lesson.md) | Advanced | Reachability, path checks, `CYCLE`, `SEARCH`, shortest paths and their limits (PG 14+) | Available |
 | 11 | [Bill of Materials & Roll-ups](11-bill-of-materials/lesson.md) | Advanced | Quantity explosion, purchase lists, cost roll-up, where-used, cycle audit | Available |
-| 12 | Data-Modifying CTEs | Advanced | `INSERT`/`UPDATE`/`DELETE ... RETURNING`, archive and audit patterns | Planned |
+| 12 | [Data-Modifying CTEs](12-data-modifying-ctes/lesson.md) | Advanced | `INSERT`/`UPDATE`/`DELETE ... RETURNING`, archive, audit and upsert patterns, snapshot rules | Available |
 | 13 | Performance, Best Practices & Anti-Patterns | Advanced | Refactoring, indexing, alternatives (`ltree`, closure tables) | Planned |
 | 14 | Capstone Portfolio Projects | Advanced | Four end-to-end projects | Planned |
 
