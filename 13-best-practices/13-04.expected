@@ -1,0 +1,24 @@
+model|rows_found|differences_from_adjacency
+adjacency list + recursive CTE|7|0
+materialized path|7|0
+closure table|7|0
+ltree|7|0
+(4 rows)
+model|rows_changed
+adjacency list + recursive CTE|1
+materialized path|2
+closure table|4
+ltree|2
+(4 rows)
+model|office_subtree_correct|electronics_subtree_correct
+adjacency list + recursive CTE|t|t
+materialized path|t|t
+closure table|t|t
+ltree|t|t
+(4 rows)
+model|stored_rows
+adjacency list + recursive CTE|12
+materialized path|12
+closure table|27
+ltree|12
+(4 rows)

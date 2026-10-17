@@ -1,0 +1,34 @@
+customer_id|customer_name|country|segment|orders|revenue|avg_order_value|pct_of_country|country_rank|vs_country_avg
+4|Dennis Okeke|Tanzania|Retail|14|33505.35|2393.24|71.4|1|above
+2|Brian Ali|Kenya|Retail|8|20504.30|2563.04|30.5|1|above
+1|Achieng Omondi|Kenya|SME|9|15520.75|1724.53|23.1|2|above
+3|Chloe Brown|United States|Retail|4|9280.30|2320.08|29.1|1|above
+13|Mercy Ibrahim|Germany|Retail|1|8505.00|8505.00|60.9|1|above
+26|Zainab Bello|United States|SME|2|8189.00|4094.50|25.6|2|above
+20|Tabitha Johnson|Uganda|Retail|4|7654.00|1913.50|53.4|1|above
+8|Hamza Mwende|United States|Retail|3|6797.00|2265.67|21.3|3|above
+25|Yusuf Patel|Uganda|Retail|1|6675.60|6675.60|46.6|2|at or below
+15|Olivia Costa|United Kingdom|SME|2|6666.40|3333.20|67.6|1|above
+9|Ines Cohen|Tanzania|SME|3|6648.00|2216.00|14.2|2|at or below
+6|Farid Khan|Kenya|Corporate|3|6383.00|2127.67|9.5|3|at or below
+12|Liam Wairimu|United States|SME|4|5868.00|1467.00|18.4|4|at or below
+5|Esther Otieno|Kenya|Retail|2|5677.00|2838.50|8.4|4|at or below
+11|Kendi Mugo|Kenya|Retail|3|5669.75|1889.92|8.4|5|at or below
+21|Umaima Hussein|Kenya|Retail|3|4398.50|1466.17|6.5|6|at or below
+7|Grace Atieno|Tanzania|SME|2|4352.50|2176.25|9.3|3|at or below
+22|Victor Nabwire|United Kingdom|Retail|2|3194.10|1597.05|32.4|2|at or below
+17|Qasim Muthoni|Germany|SME|2|3036.75|1518.38|21.8|2|at or below
+16|Pedro Silva|Kenya|Retail|3|2647.00|882.33|3.9|7|at or below
+19|Sanjay Mutua|Kenya|SME|2|2600.00|1300.00|3.9|8|at or below
+23|Wangari Wafula|Tanzania|SME|1|2446.00|2446.00|5.2|4|at or below
+24|Ximena Walker|Germany|Retail|1|2420.00|2420.00|17.3|3|at or below
+10|Joseph Njoroge|Kenya|SME|1|1950.00|1950.00|2.9|9|at or below
+14|Noah Kamau|Kenya|SME|1|1866.60|1866.60|2.8|10|at or below
+18|Rose Mensah|United States|Retail|1|1800.00|1800.00|5.6|5|at or below
+(26 rows)
+before_rows|after_rows|differences
+26|26|0
+(1 row)
+before_scans_of_order_items|after_scans_of_order_items
+4|1
+(1 row)

@@ -1,0 +1,6 @@
+scenario|whole_table_scans|index_lookups|result_rows|max_depth
+no index: whole organisation|6|0|111111|6
+no index: one team of 11|2|0|11|2
+with index: whole organisation|0|111111|111111|6
+with index: one team of 11|0|11|11|2
+(4 rows)

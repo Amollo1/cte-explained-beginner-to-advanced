@@ -374,4 +374,4 @@ The rows already exist, so every attempted insert is skipped and `RETURNING` ret
 No. All parts share one snapshot taken before the statement, so B cannot see A's inserts except through `RETURNING`. Put them in separate statements inside one transaction.
 </details>
 
-**Next:** do the [exercises](exercises.md), then continue to Module 13: Performance, Best Practices & Anti-Patterns *(coming soon)*.
+**Next:** do the [exercises](exercises.md), then continue to [Module 13: Performance, Best Practices & Anti-Patterns](../13-best-practices/lesson.md).

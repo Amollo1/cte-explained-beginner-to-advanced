@@ -1,0 +1,14 @@
+differing_rows|before_has_cte_scan|after_has_cte_scan|before_scans_of_orders|after_scans_of_orders
+0|f|f|1|1
+(1 row)
+what|outcome
+SELECT * in the CTE, before a column is added|ok
+SELECT * in the CTE, after a column is added|42601
+explicit column list, after a column is added|ok
+(3 rows)
+unguarded_search_cancelled
+t
+(1 row)
+guarded_search_rows
+12
+(1 row)
