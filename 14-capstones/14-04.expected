@@ -1,0 +1,33 @@
+route|total_km|hops
+Nairobi > Nakuru > Eldoret > Kampala > Kigali|1220|4
+Nairobi > Nakuru > Kisumu > Kampala > Kigali|1230|4
+(2 rows)
+route|total_km|hops
+Nairobi > Arusha > Dar es Salaam|900|2
+(1 row)
+routes_from_kigali_to_nairobi
+0
+(1 row)
+ordered_pairs|reachable_pairs|longest_shortest_km
+72|64|2730
+(1 row)
+origin|destination|shortest_km
+Arusha|Kigali|2730
+(1 row)
+layers|paths
+12|2048
+14|8192
+16|32768
+18|131072
+(4 rows)
+check_name|expected|actual|passed
+Nairobi to Kigali has 2 simple routes|2|2|t
+the shortest Nairobi to Kigali route is 1220 km|1220|1220|t
+a 1000 km budget leaves one route to Dar es Salaam|1|1|t
+no road leaves Kigali, so nothing is reachable from it|0|0|t
+ordered city pairs (9 cities)|72|72|t
+reachable ordered pairs|64|64|t
+the longest shortest route is 2730 km|2730|2730|t
+no route visits a city twice|0|0|t
+each extra 2 layers multiplies the path count by 4|4|4|t
+(9 rows)

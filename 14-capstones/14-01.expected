@@ -1,0 +1,30 @@
+table_name|row_count|columns|description
+dim_date|546|9|One row per calendar day between the first and last order.
+dim_customer|30|6|One row per customer. first_order_date is NULL for customers who never ordered.
+dim_product|20|6|One row per product with its full category path and top-level category.
+fact_order_line|286|12|GRAIN: one row per order line. Sum net_amount freely; do not sum order-level columns here.
+fact_order|120|8|GRAIN: one row per order. shipping_fee lives here, at its own grain.
+(5 rows)
+month_start|completed_orders|net_revenue|mom_growth_pct|running_revenue
+2025-01-01|2|9273.25||9273.25
+2025-02-01|5|10878.35|17.3|20151.60
+2025-03-01|8|25668.60|136.0|45820.20
+2025-04-01|2|6646.00|-74.1|52466.20
+(4 rows)
+top_category|net_revenue|units|pct_of_total
+Electronics|148555.50|363|80.6
+Office|35699.40|230|19.4
+(2 rows)
+check_name|expected|actual|passed
+dim_date covers every day from first to last order|546|546|t
+every order line is in the fact table|286|286|t
+every order is in the fact table|120|120|t
+no order date is missing from dim_date|0|0|t
+completed revenue matches the base tables (independent control total)|184254.90|184254.90|t
+order grain and line grain agree on total net revenue|268482.40|268482.40|t
+shipping is counted once per order (no fan-out)|870.00|870.00|t
+category KPI adds up to completed revenue|184254.90|184254.90|t
+monthly KPI covers all 18 months|18|18|t
+March 2025 growth is 136.0 percent|136.0|136.0|t
+the running total ends at the completed revenue|184254.90|184254.90|t
+(11 rows)

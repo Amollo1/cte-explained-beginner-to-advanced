@@ -405,4 +405,4 @@ The whole-organisation traversal visits every row anyway, so six full scans cost
 The adjacency list stores one pointer per node, so a move rewrites one row. The closure table stores every ancestor-descendant pair, so a move rewrites the links to the old and new ancestors for each node in the subtree. Its write cost grows with subtree size and depth, in exchange for very fast subtree reads.
 </details>
 
-**Next:** do the [exercises](exercises.md), then continue to Module 14: Capstone Portfolio Projects *(coming soon)*.
+**Next:** do the [exercises](exercises.md), then continue to [Module 14: Capstone Portfolio Projects](../14-capstones/lesson.md).

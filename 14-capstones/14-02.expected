@@ -1,0 +1,39 @@
+manager|direct_reports|total_reports|team_payroll
+Amina Hassan|5|29|2850000.00
+    Brian Otieno|2|7|757000.00
+        Grace Wanjiru|3|3|329000.00
+        Hassan Ali|2|2|263000.00
+    Carla Mendes|2|6|564000.00
+        Irene Achieng|2|2|217000.00
+        James Mwangi|2|2|187000.00
+    David Kimani|1|3|375000.00
+        Kofi Mensah|2|2|220000.00
+    Elena Petrova|1|2|292000.00
+        Lina Schmidt|1|1|142000.00
+    Farid Rahman|1|6|612000.00
+        Mohamed Yusuf|4|5|452000.00
+            Zane Ochieng|1|1|121000.00
+(14 rows)
+depth|people|avg_salary|payroll
+1|1|250000.00|250000.00
+2|5|158000.00|790000.00
+3|7|98571.43|690000.00
+4|16|67375.00|1078000.00
+5|1|42000.00|42000.00
+(5 rows)
+employees_total|employees_reached|roots|unreachable_employees
+30|30|1|0
+(1 row)
+check_name|expected|actual|passed
+every employee appears in the chart|30|30|t
+the deepest level is 5|5|5|t
+the CEO has everyone else as a report|29|29|t
+direct reports add up to every non-root employee|29|29|t
+the CEO team payroll equals the whole payroll|2850000.00|2850000.00|t
+the VP Data team payroll equals the Data and Analytics department payroll (cross-check with Module 12)|612000.00|612000.00|t
+the team function returns the 6 people under the VP Data|6|6|t
+there is exactly one root and no unreachable employee|1 / 0|1 / 0|t
+(8 rows)
+employees_total|employees_reached|unreachable_employees
+30|28|2
+(1 row)

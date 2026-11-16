@@ -47,7 +47,7 @@ Then open [`00-setup/lesson.md`](00-setup/lesson.md) and follow the roadmap belo
 | 11 | [Bill of Materials & Roll-ups](11-bill-of-materials/lesson.md) | Advanced | Quantity explosion, purchase lists, cost roll-up, where-used, cycle audit | Available |
 | 12 | [Data-Modifying CTEs](12-data-modifying-ctes/lesson.md) | Advanced | `INSERT`/`UPDATE`/`DELETE ... RETURNING`, archive, audit and upsert patterns, snapshot rules | Available |
 | 13 | [Performance, Best Practices & Anti-Patterns](13-best-practices/lesson.md) | Advanced | Refactoring with proof, indexing recursion, anti-patterns, hierarchy models (`ltree`, closure tables), review checklist | Available |
-| 14 | Capstone Portfolio Projects | Advanced | Four end-to-end projects | Planned |
+| 14 | [Capstone Portfolio Projects](14-capstones/lesson.md) | Advanced | Four finished, self-checking projects: sales mart, org-chart explorer, data-quality pipeline, route planner | Available |
 
 The full plan (57 exercises, estimated hours, dataset map) is in [`docs/CTE_Explained_Beginner_to_Advanced.xlsx`](docs/CTE_Explained_Beginner_to_Advanced.xlsx).
 

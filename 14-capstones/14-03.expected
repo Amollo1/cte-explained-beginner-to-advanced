@@ -1,0 +1,28 @@
+raw_rows|loaded_or_updated_rows|duplicate_rows|rejected_rows
+20|12|6|2
+20|0|6|0
+21|1|7|0
+(3 rows)
+raw_id|reason|raw_email|raw_name
+10|malformed email|'farah.ahmed@example'|'Farah Ahmed'
+11|missing email|NULL|'George Ouma'
+(2 rows)
+email|full_name
+alice.mwangi@example.com|Alice Mwangi-Otieno
+(1 row)
+check_name|expected|actual|passed
+no duplicate emails in dq.customer|0|0|t
+no malformed emails in dq.customer|0|0|t
+no missing emails in dq.customer|0|0|t
+every quarantined row has a reason|0|0|t
+one customer per distinct valid email in the raw data|12|12|t
+run 1 reconciles: raw = loaded + duplicates + rejected|true|true|t
+run 2 changed nothing (the load is idempotent)|0|0|t
+(7 rows)
+failing_checks
+2
+(1 row)
+check_name
+no malformed emails in dq.customer
+one customer per distinct valid email in the raw data
+(2 rows)
